@@ -1,0 +1,17 @@
+﻿<Window x:Class="DZ0601AndreyMatveew.DepartmentEditing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DZ0601AndreyMatveew"
+        mc:Ignorable="d"
+        Title="Редактирование департамента" Height="253.262" Width="385.66">
+    <Grid>
+        <TextBlock x:Name="TextBlockOId" HorizontalAlignment="Left" Margin="28,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="30" Text="Старое название" FontSize="16"/>
+        <TextBlock x:Name="textBlockNew" HorizontalAlignment="Left" Margin="28,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="30" Text="Новое название" FontSize="16"/>
+        <TextBlock x:Name="oldName" HorizontalAlignment="Left" Margin="199,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="30" FontSize="16"/>
+        <TextBox x:Name="newNameTextBox" HorizontalAlignment="Left" Height="30" Margin="199,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="16"/>
+        <Button x:Name="saveButton" Content="Сохранить" HorizontalAlignment="Left" Margin="199,153,0,0" VerticalAlignment="Top" Width="137" Height="41" Click="saveButton_Click"/>
+
+    </Grid>
+</Window>
